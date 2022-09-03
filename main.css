@@ -1,0 +1,47 @@
+body {
+    background-color: #888888;
+    font-family: 'Arvo', serif;
+
+}
+
+
+.container {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+.row-filling-div {
+    height: 200px;
+    padding: 5px;
+    /* margin: 10px; */
+}
+
+.top-division {
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: chartreuse;
+}
+
+.bottom-division {
+    margin: auto;
+    margin-top: 15px;
+    background-color: chartreuse;
+}
+.col {
+    height: 900px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.left-column {
+    background-color: aliceblue;
+}
+
+.right-column {
+    background-color: bisque;
+}
