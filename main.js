@@ -1,1 +1,1 @@
-// console.log(document.getElementsByTagName('svg'));
+console.log(document.getElementsByTagName('object')[0].contentWindow.document);
