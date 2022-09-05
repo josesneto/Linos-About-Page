@@ -1,7 +1,22 @@
 body {
-    background-color: #888888;
+    background-color: #eeeeee;
     font-family: 'Arvo', serif;
 
+}
+
+.slide-show1 {
+    color: white;
+    z-index: 2;
+    padding: 50px;
+    position: absolute;
+}
+
+#obj1 {
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+    z-index: 1;
+    box-shadow: #999999 5px 5px 20px;
 }
 
 
@@ -22,26 +37,17 @@ body {
 .top-division {
     margin: auto;
     margin-bottom: 15px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 .bottom-division {
     margin: auto;
     margin-top: 15px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 .col {
-    height: 900px;
+    height: 700px;
     width: 100%;
     margin: auto;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-.left-column {
-    background-color: aliceblue;
-}
-
-.right-column {
-    background-color: bisque;
+    border-radius: 20px;
 }
