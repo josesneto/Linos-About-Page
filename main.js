@@ -1,7 +1,6 @@
-console.log('a', document);
-
-try {
-    console.log('B', document.getElementsByTagName('object')[0].contentWindow.document);
-} catch (e) {
-    console.log('não desta vez');
-}
+this.test_moon = document.getElementById('moon');
+console.log(test_moon);
+var i = -130.001;
+test_moon.setAttribute('transform', 'translate(12px)');
+// setInterval(function() {test_moon.setAttribute('transform', 'scale(' + 1 + ')'); i = i + 0.9;}, 100);
+//rotate(-130.29641)
