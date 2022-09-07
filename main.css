@@ -1,58 +1,42 @@
 body {
-    background-color: #222222;
+    background-color: #c3c3c3;
     font-family: 'Arvo', serif;
 
 }
-
-.slide-show1 {
-    color: white;
-    z-index: 2;
-    padding: 50px;
-    position: absolute;
-}
-
-#svg5 {
-    position: relative;
-    border-radius: 20px;
-    width: 100%;
-    z-index: 1;
-    box-shadow: #999999 5px 5px 20px;
-}
-
-/* #moon:hover {
-    transition: 10s;
-    size: 1000px;
-} */
-
 
 .container {
     width: 100%;
 }
 
 .row {
-    width: 100%;
-}
-
-.row-filling-div {
-    height: 200px;
-    padding: 5px;
-    /* margin: 10px; */
-}
-
-.top-division {
-    margin: auto;
-    margin-bottom: 15px;
-    /* background-color: chartreuse; */
-}
-
-.bottom-division {
-    margin: auto;
-    margin-top: 15px;
-    /* background-color: chartreuse; */
-}
-.col {
-    height: 700px;
+    background-color: #d2d2d2;
+    height: 350px;
     width: 100%;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 20px;
+    box-shadow: grey 1px 1px 20px;
+}
+
+.content-box1 {
+    color: #232323;
+    padding: 20px;
+    /* background-color: red; */
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.profile {
+    background-image: url(images/profile.jpg);
+}
+
+.svg-illustration {
+    background-image: url(images/iso-brick-building.svg.);
 }
